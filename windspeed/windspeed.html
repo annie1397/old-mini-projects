@@ -1,0 +1,103 @@
+<html>
+<title>MEтатяопг</title>
+<head>
+<script language="javascript">
+    function metatropi(){
+       
+var arithmos1 = document.getElementById("arithmos1").value;
+	if (arithmos1==0){
+	document.getElementById ("result").innerHTML=("0 beaufort апмоиа");
+	document.getElementById("eikona").src ="0.jpg";
+}
+	else if ((arithmos1>0 && arithmos1<6)){
+	document.getElementById ("result").innerHTML=("1 beaufort екажяу аеяайи");
+	document.getElementById("eikona").src ="1.jpg";	
+	}
+
+	else if  ((arithmos1>5 && arithmos1<12)){
+		document.getElementById ("result").innerHTML=("2 beaufort екажяиа ауяа");
+	document.getElementById("eikona").src ="2.jpg";
+	}
+
+	else if  ((arithmos1>11 && arithmos1<20)){
+		document.getElementById ("result").innerHTML=("3 beaufort цкуйиа ауяа");
+	document.getElementById("eikona").src ="3.jpg";
+	}
+
+	else if  ((arithmos1>19 && arithmos1<29)){
+		document.getElementById ("result").innerHTML=("4 beaufort летяиа ауяа");
+	document.getElementById("eikona").src ="4.jpg";
+	}
+
+	else if  ((arithmos1>28 && arithmos1<39)){
+		document.getElementById ("result").innerHTML=("5 beaufort калпяос");
+	document.getElementById("eikona").src ="5.jpg";
+	}
+
+	else if  ((arithmos1>38 && arithmos1<50)){
+		document.getElementById ("result").innerHTML=("6 beaufort исвуяос");
+	document.getElementById("eikona").src ="6.jpg";
+	}
+
+	else if  ((arithmos1>49 && arithmos1<62)){
+		document.getElementById ("result").innerHTML=("7 beaufort сжодяос");
+	document.getElementById("eikona").src ="7.jpg";
+	}
+   
+	else if  ((arithmos1>61 && arithmos1<75)){
+		document.getElementById ("result").innerHTML=("8 beaufort хуеккыдгс");
+	document.getElementById("eikona").src ="8.jpg";
+	}
+
+	else if  ((arithmos1>74 && arithmos1<89)){
+		document.getElementById ("result").innerHTML=("9 beaufort хуекка");
+	document.getElementById("eikona").src ="9.jpg";
+	}
+    
+	else if  ((arithmos1>88 && arithmos1<103)){
+		document.getElementById ("result").innerHTML=("10 beaufort исувяг хуекка");
+	document.getElementById("eikona").src ="10.jpg";
+	}
+
+	else if  ((arithmos1>102 && arithmos1<118)){
+		document.getElementById ("result").innerHTML=("11 beaufort сжодяг хуекка");
+	document.getElementById("eikona").src ="11.jpg";
+	}
+	
+	else {
+		document.getElementById ("result").innerHTML=("12 beaufort тужымас");
+	        document.getElementById("eikona").src ="12.jpg";
+	}
+
+    }
+
+
+</script>
+
+
+</head>
+
+<body bgcolor="lightgreen">
+<center>
+
+    <h1> дЫСЕ ТГМ ТАВУТГТА ТОУ АМЕЛОУ!!!</h1>
+
+    <br>
+   
+
+    <input type="text" id="arithmos1">
+
+    <button onclick="metatropi()"><b>ЛЕТАТЯОПГ СЕ ЛПОЖОЯ..</b></button>
+
+</center>
+
+
+
+
+ <center> <i> <b> <p id="result">  0 BEAUFORT  </p> </i> </b>
+<img id="eikona" src="" >
+</center>
+
+
+</body>
+</html>
