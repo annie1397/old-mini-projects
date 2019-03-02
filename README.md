@@ -19,4 +19,11 @@ var y6= y5 % 10;
 var talira = parseInt( y6 / 5);
 var y7= y6 % 5;
 ```
-2.
+
+
+
+
+
+2. *Wind speed*
+
+_Υou have to download all the files and save it in the same folder_
