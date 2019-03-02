@@ -1,3 +1,3 @@
 # _old-mini-projects_
 
-*Conversion into bank notes*
+ 1 . *Conversion into bank notes*
