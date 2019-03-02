@@ -24,5 +24,6 @@ var y7= y6 % 5;
 
 
 
-2. *Wind spees*
-_you have to download all the files and save it in the same folder_
+2. *Wind speed*
+
+_Υou have to download all the files and save it in the same folder_
