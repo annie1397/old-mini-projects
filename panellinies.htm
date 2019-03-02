@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<title>ΜΟΡΙΑ ΕΠΑΛ </title>
+<script type="text/javascript">
+
+function upologismos(){
+
+  var a=document.getElementById("b1").value;
+  var b=document.getElementById("b2").value;
+  var c=document.getElementById("b3").value;
+  var d=document.getElementById("b4").value;
+  if ( (a <0 ) || (a>200)) {
+      alert ("ΠΡΟΣΟΧΗ,ΛΑΘΟΣ ΒΑΘΜΟΣ ΣΤΟΝ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟ");
+     document.getElementById("b1").value = 0;
+     
+   }else {
+     a= a * 3.5;
+    
+   }
+     
+    
+  if ( (b <0 ) || (b>200)) {
+   alert ("ΠΡΟΣΟΧΗ,ΛΑΘΟΣ ΒΑΘΜΟΣ ΣΤΑ ΔΙΚΤΥΑ");
+   }else {
+     b=b*3.5;
+     }
+     
+
+  if ( (c <0 ) || (c>200)) {
+   alert ("ΠΡΟΣΟΧΗ,ΛΑΘΟΣ ΒΑΘΜΟΣ ΣΤΑ ΜΑΘΗΜΑΤΙΚΑ");
+   }else {
+     c=c*1.5;
+     }
+   
+  
+  if (( d <0 ) ||(d >200)) {
+   alert ("ΠΡΟΣΟΧΗ,ΛΑΘΟΣ ΒΑΘΜΟΣ ΣΤΗΝ ΓΛΩΣΣΑ");
+   }else {
+     d=d*1.5;
+     }
+
+
+
+
+document.getElementById("apotelesma").value=a+b+c+d;
+}
+</script>
+
+</head>
+
+<body>
+ΒΑΘΜΟΣ ΣΤΟΝ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟ:  <input type="text" id = "b1"> <br> <br> 
+ΒΑΘΜΟΣ ΣΤΑ ΔΙΚΤΥΑ:           <input type="text" id = "b2"> <br> <br>
+ΒΑΘΜΟΣ ΣΤΑ ΜΑΘΗΜΑΤΙΚΑ:       <input type="text" id = "b3"> <br> <br>
+ΒΑΘΜΟΣ ΓΛΩΣΣΑ:               <input type="text" id = "b4"> <br> <br> 
+<hr>
+ΤΑ ΜΟΡΙΑ ΣΟΥ: <input type="textbox" id="apotelesma">
+ <button onclick="upologismos()">submit </button> 
+</body>
+
+</html>
